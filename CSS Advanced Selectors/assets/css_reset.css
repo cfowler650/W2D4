@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -17,7 +17,9 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -41,3 +43,51 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+input[type="radio"]{
+  cursor: pointer;
+  outline: none;
+}
+
+input[type=radio]:hover {
+    background-position: 58px 58px;
+}
+
+input[type=radio]:checked {
+    background-position: 30px 30px;
+}
+
+input[type=radio] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(./stars.png);
+    vertical-align: bottom;
+}
+
+input[type="submit"]:last-child {
+  background-color: gold;
+  cursor: pointer;
+  outline: none;
+}
+
+
+input[type="submit"]:hover {
+  background-color: rgb(176, 151, 6);
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="select"]{
+  cursor: pointer;
+  outline: none;
+}
+
+.dir li:nth-of-type(2n) {
+    background-color: lightgray;
+}
+
+h2 + .user_review {
+  border-top: 1px solid black;
+}
+
